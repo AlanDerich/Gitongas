@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "77108228409",
+    "project_id": "gitongas-5cae0",
+    "storage_bucket": "gitongas-5cae0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77108228409:android:313e3bade7f0d83476b8e8",
+        "android_client_info": {
+          "package_name": "com.derich.gitongas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77108228409-1o2p9q6erkcb6mcf09afr81b0qadpekd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.derich.gitongas",
+            "certificate_hash": "6f22f460d16820b819109f29a3929339b781442a"
+          }
+        },
+        {
+          "client_id": "77108228409-nqdqjo2n1n64qjavb4ebvro1dtht8e99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvNa1FHhk5ofE3nmoRTlGUkZKpN6TQ-ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77108228409-dij17usrg1fqqs2ih4k2acdvmud79u86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
