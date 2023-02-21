@@ -73,8 +73,8 @@ fun AddTransactionScreen(transactionsViewModel: TransactionsViewModel,
 @Composable
 fun AddTransactionPage(selectedMember: MemberDetails,
                        transactionsViewModel: TransactionsViewModel, navController: NavController) {
-    var dateOfTransaction by rememberSaveable { mutableStateOf("2020/01/01") }
-    var reversedDateOfTransaction by rememberSaveable { mutableStateOf("01/01/2020") }
+    var dateOfTransaction by rememberSaveable { mutableStateOf("2023/01/01") }
+    var reversedDateOfTransaction by rememberSaveable { mutableStateOf("01/01/2023") }
     var transactionPaidBy by rememberSaveable { mutableStateOf("") }
     var transactionAmountPaid by rememberSaveable { mutableStateOf("0") }
     var transactionConfirmation by rememberSaveable { mutableStateOf("") }
@@ -134,7 +134,7 @@ fun AddTransactionPage(selectedMember: MemberDetails,
     Button(
         enabled = buttonEnabled,
         onClick = {
-            if (dateOfTransaction != "2020/01/01"
+            if (dateOfTransaction != "2023/01/01"
                     && transactionConfirmation  != ""
                     && transactionAmountPaid != "0"
                     && transactionPaidBy != "")

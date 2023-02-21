@@ -1,5 +1,6 @@
 package com.derich.gitongas.ui.screens.transactions
 
+import android.util.Log
 import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -75,6 +76,7 @@ fun TransactionsComposable(modifier: Modifier = Modifier,
         Text(text = e.message!!,
             modifier = modifier.padding(16.dp)
         )
+        Log.e("transactionsPage", "Error $e")
     }
 
     Column(

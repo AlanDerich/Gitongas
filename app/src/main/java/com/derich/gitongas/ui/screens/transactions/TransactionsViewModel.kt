@@ -55,11 +55,11 @@ class TransactionsViewModel : ViewModel() {
         uploadStatus.value = waitingForResponse
     }
     private fun calculateResultingDate(newUserAmount: Int): String {
-        val totalDays: Int = (newUserAmount / 20)
+        val totalDays: Int = (newUserAmount / 30)
         //add number of days to the start date
         var sdf = SimpleDateFormat("dd/MM/yyyy", Locale.US)
         val c: Calendar = Calendar.getInstance()
-        c.time = sdf.parse("31/12/2019")!!
+        c.time = sdf.parse("31/12/2022")!!
         c.add(Calendar.DATE, totalDays)
         sdf = SimpleDateFormat("dd/MM/yyyy", Locale.US)
         return sdf.format(Date(c.timeInMillis))
